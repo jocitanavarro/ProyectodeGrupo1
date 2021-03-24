@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #FFFFFA;
+}
+body main {
+    width: 100%;
+}
+body nav ul li a {
+    width: 100%;
+    margin: 0 auto;
+    color: aliceblue;
+    background-color:gray;
+    font-family: 'Indie Flower', cursive;
+    text-decoration:none;
+}
+body header nav ul li {
+    overflow:hidden;
+    list-style:none;
+    }   
+body header nav ul li{ /*menú*/
+    width: 100%;
+    align-content: center;
+}
+body main footer div ul li a{
+    text-decoration:none;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+    color: aliceblue;
+    background-color: #024959;
+    font-family: 'Orbitron', sans-serif;
+}
+header nav{
+background-color:#024959;
+}
+
+header nav div ul li a {
+    font-family: 'Indie Flower', cursive;
+    color:#fff;
+    padding: 5px;
+    display: block;
+}
+header nav ul li a:hover{
+    background: #037E8C;
+}
+header nav ul li span {
+    margin-right: 4px;
+}
+nav {
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+}
+nav ul {
+    text-align: center;
+}
+
+.bienvenida{
+    font-family: 'Indie Flower', cursive;
+    background-color:rgb(55, 82, 199);
+    border: 15px solid rgb(70, 226, 200);
+    padding: 10px;
+    width: 100%;
+    float: left;
+}
+.imagen{
+    width: 80vw;
+}
+.titulo{
+    font-size: 100%;
+    width: 100%;
+    text-align: center;
+}
+.logoupel{
+    width: 6%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.navegacion_elemento{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+section { 
+    font-family: 'Indie Flower', cursive;
+    background-color: #ff6600;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+form {
+    text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+    color:#fff;
+    display: block;
+    text-decoration: none;
+}
+nav ul li span {
+    margin-right: 5px;
+}
+.form-control{
+    width: 50%;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+    align-items: center;
+}
+
+footer {
+    font-family: 'Indie Flower', cursive;
+    background-color: deepskyblue;
+    text-decoration:none;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+input,select,textarea,label {
+    font-family: 'Indie Flower', cursive;
+    justify-content: center;    
+    text-align: center;
+}
+@media(max-width: 320px) {
+    .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;    
+    }
+}
+/*@media (min-width: 321px) and (max-width: 799px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        }
+}*/
+@media(min-width: 600px){
+    .menu{
+        flex-direction: row;
+        justify-content:center;
+    }
+    .titulo{
+    font-size: 200%;    
+    }
+
+    .banner{
+    width: 80vw;
+    }
+}
+
