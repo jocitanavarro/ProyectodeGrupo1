@@ -1,165 +1,257 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
 }
+
 body {
-    background: #FFFFFA;
+  background: url(../images/fondo.png);
+  font-size: 20px;
 }
-body main {
-    width: 100%;
+
+body header {
+  width: 100%;
+  color: aliceblue;
+  font-size: 20px;
 }
+
+body nav {
+  font-size: 15px;
+  color: #630763;
+  padding: 10px;
+  width: 100%;
+}
+
+body nav div ul {
+  text-align: center;
+}
+
+body nav div ul li a {
+  color: white;
+  padding: 5px;
+}
+
+body nav ul {
+  /* Haz click para conocerme*/
+  width: 100%;
+  /* menu contenedor*/
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body nav ul li {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+body nav ul li a:hover {
+  background: #c157ba;
+}
+
 body nav ul li a {
-    width: 100%;
-    margin: 0 auto;
-    color: aliceblue;
-    background-color:gray;
-    font-family: 'Indie Flower', cursive;
-    text-decoration:none;
-}
-body header nav ul li {
-    overflow:hidden;
-    list-style:none;
-    }   
-body header nav ul li{ /*menú*/
-    width: 100%;
-    align-content: center;
-}
-body main footer div ul li a{
-    text-decoration:none;
-}
-header{
-    width: 100%;
-    margin: 0 auto;
-    color: aliceblue;
-    background-color: #024959;
-    font-family: 'Orbitron', sans-serif;
-}
-header nav{
-background-color:#024959;
+  width: 100%;
+  margin: 0 auto;
+  color: aliceblue;
+  background-color: #d623cb;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 20px 20px 20px 20px;
 }
 
-header nav div ul li a {
-    font-family: 'Indie Flower', cursive;
-    color:#fff;
-    padding: 5px;
-    display: block;
-}
-header nav ul li a:hover{
-    background: #037E8C;
-}
-header nav ul li span {
-    margin-right: 4px;
-}
-nav {
-    font-family: 'Indie Flower', cursive;
-    background-color: white;
-    padding: 10px;
-    width: 100%;
-}
-nav ul {
-    text-align: center;
+body nav ul li span {
+  margin-right: 5px;
 }
 
-.bienvenida{
-    font-family: 'Indie Flower', cursive;
-    background-color:rgb(55, 82, 199);
-    border: 15px solid rgb(70, 226, 200);
-    padding: 10px;
-    width: 100%;
-    float: left;
-}
-.imagen{
-    width: 80vw;
-}
-.titulo{
-    font-size: 100%;
-    width: 100%;
-    text-align: center;
-}
-.logoupel{
-    width: 6%;
+body .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 250%;
+  width: 100%;
 }
 
-.menu {
-    display: flex;
-    flex-direction: column;
-}
-.navegacion_elemento{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-}
-section { 
-    font-family: 'Indie Flower', cursive;
-    background-color: #ff6600;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    width: 100%;
-    margin: 0 auto;
-}
-form {
-    text-align: left;
+body .title__name {
+  width: 95%;
 }
 
-nav ul li {
-    list-style: none;
-    color:#fff;
-    display: block;
-    text-decoration: none;
-}
-nav ul li span {
-    margin-right: 5px;
-}
-.form-control{
-    width: 50%;
-    display: flex;
-    justify-content: center;    
-    text-align: center;
-    align-items: center;
+body .title__logo {
+  width: 5vw;
 }
 
-footer {
-    font-family: 'Indie Flower', cursive;
-    background-color: deepskyblue;
-    text-decoration:none;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
+body .navegation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
 }
-input,select,textarea,label {
-    font-family: 'Indie Flower', cursive;
-    justify-content: center;    
-    text-align: center;
+
+body main {
+  width: 100%;
 }
-@media(max-width: 320px) {
+
+body main section {
+  width: 100%;
+  color: #292624;
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+body main section div {
+  text-align: center;
+}
+
+body main section div img {
+  border-radius: 40px 40px 40px 40px;
+}
+
+body main section div form {
+  text-align: center;
+}
+
+body footer {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+body footer div ul li a {
+  text-decoration: none;
+}
+
+body footer div ul li a span {
+  margin-right: 4px;
+}
+
+body input, body select, body textarea, body label {
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .title__welcome {
+  font-size: 250%;
+  width: 100%;
+  text-align: center;
+}
+
+body .form-control {
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body .image_size {
+  border-radius: 20px 20px 20px 20px;
+  width: 75%;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/*@media(max-width: 320px) {
+    body nav div ul li a{
+        width: 115px;
+    }
+    .titulo{
+        width: 88%;
+        font-size: 120%;
+    }
+    .titulo__logoupel{
+        width: 100%;
+        justify-content: center;
+    }
+    .titulo__bienvenida{
+        font-size: 250%;    
+    }
+    .navegacion__elemento--menu{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
     .container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;    
+        display: flex;
+        flex-direction: column;   
     }
 }
-/*@media (min-width: 321px) and (max-width: 799px) {
+@media (min-width: 321px) and (max-width: 767px) {
+    .titulo{
+        width: 90%;
+        font-size: 170%;
+    }
+    .titulo__logoupel{
+        width: 60%;
+    }
+    .titulo__bienvenida{
+    font-size: 175%;    
+    }
+    body nav div ul li a{
+        width: 115px;
+    }
+
+    .navegacion__elemento--menu{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;    
-        }
+    }
 }*/
-@media(min-width: 600px){
-    .menu{
-        flex-direction: row;
-        justify-content:center;
-    }
-    .titulo{
-    font-size: 200%;    
-    }
-
-    .banner{
-    width: 80vw;
-    }
-}
-
+/*# sourceMappingURL=main.css.map */
