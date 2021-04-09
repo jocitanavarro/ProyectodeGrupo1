@@ -7,8 +7,30 @@ body, html {
   background-size: cover;
 }
 
-.color-nav{
-  background-color:purple;
-  height: 4em;
+.menu-bar {
+  background-image: -webkit-gradient(linear, right top, left top, from(#d38312), to(#a83279));
+  background-image: linear-gradient(-90deg, #d38312, #a83279);
+}
+
+navbar-brand {
+  color: #fff !important;
+}
+
+.nav-link {
+  font-size: 12px;
+  color: #fff;
+  margin: 3px;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.menu-bar .navbar-toggler {
+  padding-right: 20px;
+  outline: none !important;
+  border: none !important;
 }
 /*# sourceMappingURL=main.css.map */
